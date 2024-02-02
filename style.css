@@ -6,6 +6,7 @@ body{
 .all-section{
     display: flex;
     flex-direction:row;
+    
 }
 img{
     width: 4rem;
@@ -18,7 +19,7 @@ img{
     height: 812px;
     background-color:#FFFFFF;
     margin: 4rem;
-    margin-left: 5rem;
+    margin-left: 2rem;
 
 }
 .logo{
@@ -67,13 +68,14 @@ input{
 border-style:hidden;
 margin-left: 2rem;
 margin-top: 2rem;
-width: 15rem;
+width: 20rem;
 }
 .horizontal-line{
  width: 20em;
  height: 1px;
  background-color: #000000;
  margin-left: 2rem;
+ margin-bottom: 4rem;
  
 }
 .forget{
@@ -133,5 +135,8 @@ width: 15rem;
 }
 .nonplacehorder{
     margin-left: 2rem;
+    color: #BBBBBB;
+    font-size: 14px;
+
     
 }
