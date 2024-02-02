@@ -50,7 +50,7 @@ img{
     color: #FFFC00;
     text-align: center;
     font-size: 18px;
-    padding-top:  1rem;
+    padding-top:  1rem;/**/
 }
 .Trouble{
     text-align: center;
@@ -67,12 +67,14 @@ input{
 border-style:hidden;
 margin-left: 2rem;
 margin-top: 2rem;
+width: 15rem;
 }
 .horizontal-line{
- width: 8em;
+ width: 20em;
  height: 1px;
  background-color: #000000;
- padding-right: 10rem;
+ margin-left: 2rem;
+ 
 }
 .forget{
     color:#0D46D9;
@@ -119,4 +121,17 @@ margin-top: 2rem;
     text-align: center;
     font-size: 18px;
     padding-top:  1rem;  
+}
+
+.vector-inputs{
+    background-color: #000000;
+    height: 1px;
+    width: 15rem;
+    border: 1px;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.nonplacehorder{
+    margin-left: 2rem;
+    
 }
